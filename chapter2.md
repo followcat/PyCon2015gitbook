@@ -15,6 +15,18 @@ Game Server Requirements
 * Support ~100 online players per CPU core
 
 ## Synchronous版本
+```
+from twisted.web import server, resource
+from twisted.internet import reactor
+
+class MyResource(resource.Resource):
+    def render(self, request):
+        name = request.args['name'][0]
+        return "Hello %s!\n" % name
+
+reactor.listenTCP(8080, server.Site(MyResource()))
+reactor.run()
+```
 
 
 
