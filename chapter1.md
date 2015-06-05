@@ -7,7 +7,7 @@ Use this simple code:
         return tracefunc
         
     import sys
-    sys.set_trace(tracefunc)
+    sys.settrace(tracefunc)
     
     def foo():
         for i in range(1, 4):
