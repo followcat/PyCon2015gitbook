@@ -2,7 +2,7 @@
 
 Use this simple code to make a console debugger:
     
-```
+
     def tracefunc(frame, event, arg):
         print("%s on #%d" % (event, frame.f_lineno))
         return tracefunc
@@ -15,7 +15,7 @@ Use this simple code to make a console debugger:
             print(1/(3.0 - i))
             
     foo()
-```
+
     
 Drawbacks of our console debugger
 * Only one breakpoint can be set
