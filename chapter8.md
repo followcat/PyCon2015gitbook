@@ -38,3 +38,5 @@ LLVM C API:
 2. [Python binding](http://capstone-engine.org/lang_python.html)
     * support both Python3 and Python2
     * Cython-based bingding for better performance
+
+3. [Medusa](https://github.com/wisk/medusa)
