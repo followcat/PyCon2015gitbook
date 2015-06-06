@@ -1,0 +1,2 @@
+# Static Typing in Python
+
