@@ -9,4 +9,5 @@
 * [Static Typing in Python](chapter6.md)
 * [Global Interpreter Lock](chapter7.md)
 * [Python & LLVM](chapter8.md)
+* [Theano: A Mathematical Expression Compiler](chapter9.md)
 
