@@ -12,4 +12,7 @@ LLVM C API:
 * HPC
     * Heterogeneous Parallel Computing
     * High Performance Computing
-
+      * NVCC: CUDA compiler
+      * CICC: LLVM based hgih level optimizer and PTX generator
+      * PTX: Virtual Instruction Set
+* Anaconda
