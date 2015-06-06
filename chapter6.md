@@ -13,3 +13,9 @@ Brief Theory of Gradual Typing
 * Non-transitive **consistency** relation
     * tuanA T: Any~T
 * Undeclared types are considered type Any.
+
+PEP 483, 484
+* New typing.py module
+ * Any, Union, Iterable, TypeVar, ...
+* Type are still hints, external validation
+* Stub files, overloads
