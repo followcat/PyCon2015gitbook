@@ -8,4 +8,5 @@
 * [TagtooTaskManager](chapter5.md)
 * [Static Typing in Python](chapter6.md)
 * [Global Interpreter Lock](chapter7.md)
+* [Python & LLVM](chapter8.md)
 
