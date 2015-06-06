@@ -7,4 +7,5 @@
 * [Thinking Functionally with Python](chapter4.md)
 * [TagtooTaskManager](chapter5.md)
 * [Static Typing in Python](chapter6.md)
+* [Global Interpreter Lock](chapter7.md)
 
