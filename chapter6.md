@@ -19,3 +19,8 @@ PEP 483, 484
  * Any, Union, Iterable, TypeVar, ...
 * Type are still hints, external validation
 * Stub files, overloads
+
+
+* Current focus on type safety
+* Partial step forward for tools like Cython
+
