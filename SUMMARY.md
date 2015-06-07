@@ -12,4 +12,5 @@
 * [Theano: A Mathematical Expression Compiler](chapter9.md)
 * [How to Build a Recommendation System with Python](chapter10.md)
 * [Julia](chapter11.md)
+* [HDF5](chapter12.md)
 
