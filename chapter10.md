@@ -24,3 +24,10 @@ Simple Recommendation Engines:
 * Content-Based Relations
 * Tagging & Searching
 * Collaborative Filtering
+
+The most difficult part:
+* How many clusters
+* which methods workable
+
+* CANNOT put two point in the same clusters forcely.
+
