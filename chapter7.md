@@ -88,3 +88,11 @@ if __name__ == '__main__':
         if count > 10:
             break
 ```
+
+Interpreter as an Instance?
+-------------------------------
+Rough idea, not a concrete solution yet
+C program, single process, multi-thread
+    still can share states with relatively low penaly
+Allocate memory space for interpreter context
+    that is, accept an address to put instance context in Py_Initialize()
