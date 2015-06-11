@@ -5,9 +5,23 @@
 
 How to live along with GIL well.
 
-Brainless Solution - multi-process
+Brainless Solution
+------------------------
+multi-process
+* multiprocessing
+* pp (Parallel Python)
+* pyCSP
+
 
 pp remote node
+
+Release the GIL
+* Especially suitable for processor-bound tasks
+* Examples:
+  * ctypes
+  * Python/C extension
+  * Cython
+  * Pyrex
 
 Cooperative Multitasking
 * Executing the code when exactly needed
