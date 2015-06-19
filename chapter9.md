@@ -10,7 +10,7 @@ Goals:
 
 Examples:
 
-```
+``` python
 import theano
 a = theano.tensor.scalar('a')
 b = theano.tensor.scalar('b')
@@ -20,7 +20,7 @@ sumsq(1, 2)
 
 array(2.23606797749979)
 ```
-```
+``` python
 import theano, theano.tensor as T
 X = T.matrix()
 y = T.vector()
@@ -28,14 +28,14 @@ z = T.vector()
 out = T.dot(X, y) * 0.6 + z *0.4
 gemv = theano.function([z, X, y], out)
 ```
-```
+``` python
 import theano, theano.tensor as T
 x = T.scalar()
 y = T.log(T.exp(x) + 1)
 log1p = theano.function([x], y)
 ```
 Performance
-```
+``` python
 python dot.py
 0.231040000916
 
