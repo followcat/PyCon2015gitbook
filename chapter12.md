@@ -2,7 +2,7 @@
 
 Focus on fast(partial) I/O
 
-```
+``` python
 import h5py
 f = h5py.File("file", "w")
 f['path'] = np.array(...)
