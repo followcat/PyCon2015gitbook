@@ -8,7 +8,8 @@ Generator
 First class functio
 
 What's wrong with python?
---------------------------------
+--------------------
+------------
 ``` python
     s = '1 2 3'
     
