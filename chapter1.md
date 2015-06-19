@@ -2,7 +2,7 @@
 
 Use this simple code to make a Trace Function:
     
-```
+``` python
     def tracefunc(frame, event, arg):
         print("%s on #%d" % (event, frame.f_lineno))
         return tracefunc
