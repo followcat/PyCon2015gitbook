@@ -9,11 +9,13 @@ First class functio
 
 What's wrong with python?
 --------------------------------
+``` python
     s = '1 2 3'
     
     t = '  '.join((s, '4'))
 
     s = .append('5')
+```
 
 let
 
