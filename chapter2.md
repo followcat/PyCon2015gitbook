@@ -15,7 +15,7 @@ Game Server Requirements
 * Support ~100 online players per CPU core
 
 ## Synchronous版本
-```
+``` python
 from twisted.web import server, resource
 from twisted.internet import reactor
 
@@ -29,7 +29,7 @@ reactor.run()
 ```
 
 ## Asynchronous版本
-```
+``` python
 from twisted.web import server, resource
 from twisted.internet import reactor
 
@@ -46,7 +46,7 @@ request.finish()
 
 When Asynchronous, how to connect "Before" and "After"?
 
-```
+``` python
 def render(self, request):
     name = request.args['name'][0]
     d = defer.Deferred()
@@ -66,7 +66,7 @@ def my_async_function(d):
 ```
 
 Another Option: @inlineCallbacks
-```
+``` python
 def render(self, request):
     result = yield my)_async_function()
     returnValue(result)
