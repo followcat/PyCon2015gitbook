@@ -14,7 +14,7 @@ multi-process
 
 
 pp local node code
-```
+``` python
 import os
 import pp
 import time
@@ -54,7 +54,7 @@ Cooperative Multitasking
   * gevent
 
 pyev code:
-```
+``` python
 import pyev
 import signal
 import sys
@@ -87,7 +87,7 @@ if __name__ == '__main__':
 ```
 
 gevent code:
-```
+``` python
 import gevent
 from gevent import signal
 import signal as o_signal
